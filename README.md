@@ -1,0 +1,2 @@
+# LintCode
+LintCode解题
