@@ -2,6 +2,8 @@ package main;
 
 /**
  * Created by imccl on 2017/11/19.
+ * 设计一个算法，计算出n阶乘中尾部零的个数
+ * 关键点：以5为中心
  */
 public class Question2 {
 

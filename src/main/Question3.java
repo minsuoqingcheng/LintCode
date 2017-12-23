@@ -2,6 +2,8 @@ package main;
 
 /**
  * Created by imccl on 2017/11/20.
+ * 计算数字k在0到n中的出现的次数，k可能是0~9的一个值
+ * 关键点：根据最大数的每一位来统计
  */
 public class Question3 {
 
