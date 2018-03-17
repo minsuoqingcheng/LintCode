@@ -1,4 +1,4 @@
-package main;
+package main.LintCode;
 
 /**
  * Created by imccl on 2017/11/20.

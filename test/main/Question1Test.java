@@ -1,5 +1,6 @@
 package main;
 
+import main.LintCode.Question1;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -22,6 +23,12 @@ public class Question1Test {
         int a = 11110;
         int b = 10922;
         Assert.assertEquals(22032, question1.aplusb2(a, b));
+    }
+
+    @Test
+    public void test() {
+        int i = (int) (10000000000l % 10);
+        System.out.println(i);
     }
 
 }

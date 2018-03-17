@@ -1,4 +1,4 @@
-package main;
+package main.LintCode;
 
 import java.util.PriorityQueue;
 

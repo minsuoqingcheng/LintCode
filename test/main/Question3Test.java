@@ -1,5 +1,6 @@
 package main;
 
+import main.LintCode.Question3;
 import org.junit.Test;
 
 /**
