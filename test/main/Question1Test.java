@@ -27,8 +27,7 @@ public class Question1Test {
 
     @Test
     public void test() {
-        int i = (int) (10000000000l % 10);
-        System.out.println(i);
+        System.out.println(3 / 2);
     }
 
 }
