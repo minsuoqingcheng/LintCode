@@ -27,7 +27,16 @@ public class Question1Test {
 
     @Test
     public void test() {
-        System.out.println(3 / 2);
+        int i = (int)0.5;
+        System.out.println(i);
+
+        double t = 1.0;
+        int j = (int) t;
+        System.out.println(j);
+
+        System.out.println(t%1 == 0);
     }
+
+
 
 }
