@@ -38,5 +38,8 @@ public class Question1Test {
     }
 
 
-
+    @Test
+    public void test3() {
+        System.out.println(Long.MAX_VALUE);
+    }
 }
