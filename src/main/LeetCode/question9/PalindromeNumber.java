@@ -19,4 +19,24 @@ public class PalindromeNumber {
         return true;
     }
 
+
+    public boolean isPalindrome2(int x) {
+        if (x < 0) {
+            return false;
+        }
+        int origin = x;
+        int res = 0;
+        while (x != 0) {
+            res = res * 10 + x % 10;
+            x = x /10;
+        }
+        return res == origin;
+    }
+
+    public static void main(String[] args) {
+        PalindromeNumber palindromeNumber = new PalindromeNumber();
+        boolean result = palindromeNumber.isPalindrome2(1001);
+        System.out.println(result);
+    }
+
 }
