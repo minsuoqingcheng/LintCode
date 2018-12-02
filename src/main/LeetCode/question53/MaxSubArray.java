@@ -1,4 +1,4 @@
-package main.LeetCode.qustion53;
+package main.LeetCode.question53;
 
 public class MaxSubArray {
 
