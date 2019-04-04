@@ -1,4 +1,4 @@
-package main.random;
+package main.random.linkedlist;
 
 import main.random.basic.ListNode;
 
