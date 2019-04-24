@@ -1,4 +1,4 @@
-package main.random.dp;
+package main.classify.dp;
 
 import java.util.Arrays;
 

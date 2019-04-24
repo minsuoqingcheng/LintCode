@@ -1,4 +1,4 @@
-package main.random.dp;
+package main.classify.dp;
 
 public class Maximum_Product_Subarray {
 

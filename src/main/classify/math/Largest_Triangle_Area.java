@@ -1,4 +1,4 @@
-package main.random.math;
+package main.classify.math;
 
 public class Largest_Triangle_Area {
 

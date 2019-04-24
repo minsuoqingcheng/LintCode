@@ -1,4 +1,4 @@
-package main.random.dp;
+package main.classify.dp;
 
 public class Best_Time_to_Buy_and_Sell_Stock {
 

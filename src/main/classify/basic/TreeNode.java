@@ -1,4 +1,4 @@
-package main.random.basic;
+package main.classify.basic;
 
 public class TreeNode {
 

@@ -1,4 +1,4 @@
-package main.random;
+package main.classify;
 
 import java.util.ArrayList;
 import java.util.List;

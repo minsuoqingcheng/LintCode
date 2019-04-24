@@ -1,6 +1,6 @@
 package main.datastruct;
 
-import main.random.basic.ListNode;
+import main.classify.basic.ListNode;
 
 public class Reverse_Linked_List {
 

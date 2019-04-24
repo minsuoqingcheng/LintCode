@@ -1,6 +1,6 @@
-package main.random.linkedlist;
+package main.classify.linkedlist;
 
-import main.random.basic.ListNode;
+import main.classify.basic.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;

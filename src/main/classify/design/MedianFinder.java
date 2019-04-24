@@ -1,4 +1,4 @@
-package main.random.design;
+package main.classify.design;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

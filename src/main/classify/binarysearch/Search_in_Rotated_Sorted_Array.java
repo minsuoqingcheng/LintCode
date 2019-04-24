@@ -1,4 +1,4 @@
-package main.random.binarysearch;
+package main.classify.binarysearch;
 
 public class Search_in_Rotated_Sorted_Array {
 
