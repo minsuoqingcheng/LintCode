@@ -1,4 +1,4 @@
-package main.classify.binarysearch;
+package main.classify.backtracking;
 
 import java.util.LinkedList;
 import java.util.List;
