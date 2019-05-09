@@ -25,6 +25,7 @@ public class QuickSort {
         int i = p;
         for (int j = p; j < r; j++) {
             if (a[j] < pivot) {
+
                 if (i == j) {
                     i++;
                 } else {
@@ -32,6 +33,7 @@ public class QuickSort {
                     a[i++] = a[j];
                     a[j] = temp;
                 }
+
             }
         }
 
