@@ -2,6 +2,7 @@ package main.classify.dp;
 
 public class Best_Time_to_Buy_and_Sell_Stock {
 
+    @SuppressWarnings("Duplicates")
     public int maxProfit(int[] prices) {
         int minPrice = Integer.MAX_VALUE;
         int maxProfit = 0;
