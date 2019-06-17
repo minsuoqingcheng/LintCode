@@ -18,7 +18,7 @@ public class Sort_An_Array {
 
     private int partition(int[] a, int p, int r) {
         int pivot = a[r];
-        int i = p;
+        int i = p;  //i的右边记录比pivot大的数
         for (int j = p; j < r; j++) {
 
             //如果小于看看需不需要替换
