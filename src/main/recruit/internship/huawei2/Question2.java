@@ -1,4 +1,4 @@
-package main.recruit.huawei2;
+package main.recruit.internship.huawei2;
 
 import java.util.Scanner;
 import java.util.Stack;

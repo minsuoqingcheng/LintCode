@@ -1,4 +1,4 @@
-package main.recruit.huawei;
+package main.recruit.internship.huawei;
 
 import java.util.*;
 

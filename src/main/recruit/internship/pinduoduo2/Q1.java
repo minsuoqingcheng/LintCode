@@ -1,4 +1,4 @@
-package main.recruit.pinduoduo2;
+package main.recruit.internship.pinduoduo2;
 
 import java.util.Scanner;
 

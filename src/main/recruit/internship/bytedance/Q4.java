@@ -1,4 +1,4 @@
-package main.recruit.bytedance;
+package main.recruit.internship.bytedance;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

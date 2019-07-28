@@ -1,6 +1,4 @@
-package main.recruit.huawei;
-
-import java.util.Arrays;
+package main.recruit.internship.huawei;
 
 public class Test {
 

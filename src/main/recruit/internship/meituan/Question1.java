@@ -1,4 +1,4 @@
-package main.recruit.meituan;
+package main.recruit.internship.meituan;
 
 import java.util.Scanner;
 
