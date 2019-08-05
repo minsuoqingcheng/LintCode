@@ -45,6 +45,30 @@ public class QuickSort {
     }
 
 
+    private int partition2(int[] a, int l, int r) {
+        int v = a[l];
+
+        //arr[l+1, j] < v
+        //arr[j+1, i) > v 
+        int j = l;
+        for (int i = l+1; i <= r; i++) {
+            if (a[i] < v) {
+                //交换 j+1 和 i
+                int temp = a[j+1];
+                a[j+1] = a[i];
+                a[i] = temp;
+                j++;
+            }
+        }
+
+        int temp = a[l];
+        a[l] = a[j];
+        a[j] = temp;
+
+        return j;
+    }
+
+
     public static void main(String[] args) {
         QuickSort quickSort = new QuickSort();
         int[] a = new int[]{8, 2, 10, 32, 7};

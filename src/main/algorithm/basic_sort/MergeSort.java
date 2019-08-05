@@ -1,5 +1,7 @@
 package main.algorithm.basic_sort;
 
+import java.util.Arrays;
+
 public class MergeSort {
 
     public void mergeSort(int[] a, int n) {
@@ -15,7 +17,11 @@ public class MergeSort {
         helper(a, p, q);
         helper(a, q+1, r);
 
+
         merge(a, p, q, r);
+//        if (a[q] > a[q+1]) {    //这种情况才需要merge
+//
+//        }
     }
 
 
@@ -34,7 +40,7 @@ public class MergeSort {
         //判断是否还有剩余元素没有拷贝
         int start = i;
         int end = q;
-        while (j <= r) {
+        if (j <= r) {
             start = j;
             end = r;
         }
@@ -46,5 +52,13 @@ public class MergeSort {
             a[p+l] = tmp[l];
         }
         
+    }
+
+
+    public static void main(String[] args) {
+        MergeSort mergeSort = new MergeSort();
+        int[] a = new int[]{1, 3, 2, 9,  5, 8, 6, 4};
+        mergeSort.mergeSort(a, 8);
+        System.out.println(Arrays.toString(a));
     }
 }
