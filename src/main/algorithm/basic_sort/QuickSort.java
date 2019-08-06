@@ -69,6 +69,42 @@ public class QuickSort {
     }
 
 
+
+    private int partition2_2(int[] a, int l, int r) {
+        //arr[l+1...i) <= v
+        //arr(j...r] >= v
+        int v = a[l];
+        int i = l + 1;
+        int j = r;
+        while (true) {
+            while (i <= r && a[i] <= v) {
+                i++;
+            }
+            while (j >= l+1 && a[j] >= v) {
+                j--;
+            }
+            if (i > j) {
+                break;
+            }
+            int temp = a[i];
+            a[i] = a[j];
+            a[j] = temp;
+            i++;
+            j--;
+        }
+
+        int temp = a[l];
+        a[l] = a[j];
+        a[j] = temp;
+        return j;
+    }
+
+
+
+
+
+
+
     public static void main(String[] args) {
         QuickSort quickSort = new QuickSort();
         int[] a = new int[]{8, 2, 10, 32, 7};
