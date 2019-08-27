@@ -47,13 +47,12 @@ public class Array {
 
 
     public void add(int index, int e) {
-        if (size == data.length) {
-            throw new IllegalArgumentException("add element error");
-        }
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("index is illegal");
         }
-
+        if (data.length == size) {
+            resize(2 * size);
+        }
         for (int i = size - 1; i >= index; i--) {
             data[i+1] = data[i];
         }
@@ -61,7 +60,13 @@ public class Array {
         size++;
     }
 
-
+    private void resize(int newCapacity) {
+        int[] newData = new int[newCapacity];
+        for (int i = 0; i < size; i++) {
+            newData[i] = data[i];
+        }
+        data = newData;
+    }
 
     public int get(int index) {
         if (index < 0 || index >= size) {
@@ -108,6 +113,9 @@ public class Array {
             data[i-1] = data[i];
         }
         size--;
+        if (size == data.length / 4 && data.length / 2 != 0) {
+            resize(data.length / 2);
+        }
         return ret;
     }
 
