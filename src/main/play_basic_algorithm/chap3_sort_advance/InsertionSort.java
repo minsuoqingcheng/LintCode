@@ -1,4 +1,4 @@
-package main.play_basic_algorithm.chap3;
+package main.play_basic_algorithm.chap3_sort_advance;
 
 public class InsertionSort {
 
