@@ -1,4 +1,4 @@
-package main.play_basic_algorithm.chap2;
+package main.play_basic_algorithm.chap2_basic_sort;
 
 /**
  * 选择排序
