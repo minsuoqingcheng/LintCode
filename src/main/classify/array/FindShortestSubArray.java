@@ -20,15 +20,24 @@ public class FindShortestSubArray {
         List<List<Integer>> indexesList = new ArrayList<>(numIndexes.values());
         for (List<Integer> indexes : indexesList) {
             int size = indexes.size();
-            if (size >= degree) {
+            if (size > degree) {
+                interval = indexes.get(indexes.size()-1) - indexes.get(0) + 1;
+                degree = size;
+            } else if (size == degree) {
                 int temp = indexes.get(indexes.size()-1) - indexes.get(0) + 1;
                 if (temp < interval) {
                     interval = temp;
                 }
-                degree = size;
             }
         }
         return interval;
+    }
+
+
+    public static void main(String[] args) {
+        FindShortestSubArray test = new FindShortestSubArray();
+        int res = test.findShortestSubArray(new int[]{1,2,2,3,1,4,2});
+        System.out.println(res);
     }
 
 }
