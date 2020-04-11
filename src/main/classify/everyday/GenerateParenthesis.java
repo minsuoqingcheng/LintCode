@@ -19,6 +19,7 @@ public class GenerateParenthesis {
      * @param curStr
      */
     private void dfs(int left, int right, String curStr) {
+
         if (left == 0 && right == 0) { // 左右括号都不剩余了，递归终止
             res.add(curStr);
             return;
