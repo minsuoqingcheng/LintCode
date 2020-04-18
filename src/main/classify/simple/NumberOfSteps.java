@@ -1,4 +1,4 @@
-package main.classify.everyday;
+package main.classify.simple;
 
 public class NumberOfSteps {
 
