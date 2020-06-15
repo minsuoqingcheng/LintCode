@@ -28,9 +28,4 @@ public class LongestCommonPrefix {
 
 	}
 
-	public static void main(String[] args) {
-		LongestCommonPrefix test = new LongestCommonPrefix();
-
-	}
-
 }
