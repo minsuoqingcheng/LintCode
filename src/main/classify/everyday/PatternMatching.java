@@ -79,6 +79,7 @@ public class PatternMatching {
                         if (ab[0] == -1) {
                             ab[0] = index;
                         } else {
+
                             //不是第一次出现
                             if (!stringEquals(vChars, ab[0], index, i)) {
                                 notMatch = true;
